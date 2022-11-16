@@ -1,0 +1,33 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the card component.
+// -----------------------------------------------------------------------------
+
+@use "../abstracts/variables" as var;
+@use "../abstracts/mixins" as mix;
+
+.qr-code {
+  max-width: px-to-rem(322px);
+  padding: px-to-rem(18px) px-to-rem(18px) px-to-rem(42px);
+  background: var.$white;
+  border-radius: px-to-rem(18px);
+
+  &__image {
+    border-radius: px-to-rem(12px);
+  }
+
+  &__title {
+    color: $dark-blue;
+    font: px-to-rem(22px) $text-font-stack;
+    font-weight: 700;
+    line-height: 1.26;
+    margin-bottom: px-to-rem(18px);
+    margin-top: px-to-rem(24px);
+    text-align: center;
+  }
+
+  &__description {
+    max-width: 25ch;
+    text-align: center;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,49 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+/// Typography
+
+/// Regular font family
+/// @type List
+$body-font-stack: 'Red Hat Display', sans-serif;
+
+/// Colors
+
+/// Primary
+
+/// Pale Blue
+/// @type Color
+$pale-blue: hsl(225, 100%, 94%);
+
+/// Bright Blue
+/// @type Color
+$bright-blue: hsl(245, 75%, 52%);
+
+/// Neutral
+
+/// Very pale blue
+/// @type Color
+$very-pale-blue: hsl(225, 100%, 98%);
+
+/// Desaturated Blue
+/// @type Color
+$desaturated-blue: hsl(224, 23%, 55%);
+
+/// Dark Blue
+/// @type Color
+$dark-blue: hsl(223, 47%, 23%);
+
+/// White
+/// @type Color
+$white: hsl(0, 0%, 100%);
+
+/// Container's maximum width
+/// @type Length
+$max-width: 1180px !default;
+
+/// Relative or absolute URL where all assets are served from
+/// @type String
+/// @example scss - When using a CDN
+///   $base-url: 'https://cdn.example.com/assets/';
+$base-url: '/assets/' !default;
