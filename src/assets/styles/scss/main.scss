@@ -21,7 +21,9 @@
 'layout/footer';
 
 // 5. Components
-@import 'components/attribution';
+@import 'components/button',
+'components/ordersummary',
+'components/attribution';
 
 // 6. Page-specific styles
 @import 'pages/home';

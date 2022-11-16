@@ -1,0 +1,40 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+
+@use "../abstracts/variables" as var;
+@use "../abstracts/mixins" as mix;
+
+.button {
+  display: block;
+  width: 100%;
+  background-color: var.$bright-blue;
+  color: var.$white;
+  padding: px-to-rem(20px) 0;
+  font-size: px-to-rem(14px);
+  font-weight: 700;
+  border-radius: px-to-rem(12px);
+  // border: 1px solid var.$bright-blue;
+  cursor: pointer;
+
+  &--primary {
+    box-shadow: 0 18px 30px -7px lighten($color: $bright-blue, $amount: 40);
+
+
+    &:hover {
+      background-color: lighten($color: var.$bright-blue, $amount: 15);
+    }
+  }
+
+  &--secondary {
+    background-color: transparent;
+    color: var.$desaturated-blue;
+    width: unset;
+    margin: 0 auto;
+    padding: px-to-rem(20px) 0 0;
+
+    &:hover {
+      color: var.$dark-blue;
+    }
+  }
+}
