@@ -46,7 +46,7 @@ Users should be able to:
 
 ### What I learned
 
-I used the Chris Burnell [clamp calculator](https://chrisburnell.com/clamp-calculator/) to calculate viewport-based clamped values.
+I used Chris Burnell's [clamp tool](https://chrisburnell.com/clamp-calculator/) to calculate viewport-based clamped values.
 
 
 ```scss
@@ -57,8 +57,8 @@ I used the Chris Burnell [clamp calculator](https://chrisburnell.com/clamp-calcu
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Clamp calculator](https://chrisburnell.com/clamp-calculator/)
+- [Managing Responsive Breakpoints](hhttps://www.sitepoint.com/managing-responsive-breakpoints-sass/)
 
 ## Author
 
@@ -67,5 +67,7 @@ I used the Chris Burnell [clamp calculator](https://chrisburnell.com/clamp-calcu
 - Twitter - [@alphfonti](https://twitter.com/alphfonti)
 
 ## Acknowledgments
+
+- [Chris Burnell](https://chrisburnell.com/)
 
 - [Aituos](https://dev.to/aituos/frontend-mentor-order-summary-component-3ffi)
